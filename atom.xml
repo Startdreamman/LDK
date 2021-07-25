@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>留白</title>
+  <icon>https://www.gravatar.com/avatar/93bf00b8463a08dd9da1a4db37d17448</icon>
+  <subtitle>留白</subtitle>
+  <link href="https://startdreamman.github.io/LDK/atom.xml" rel="self"/>
+  
+  <link href="https://startdreamman.github.io/LDK/"/>
+  <updated>2021-07-25T15:30:16.898Z</updated>
+  <id>https://startdreamman.github.io/LDK/</id>
+  
+  <author>
+    <name>留白</name>
+    <email>3504448058@qq.com</email>
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hello,my blog world</title>
+    <link href="https://startdreamman.github.io/LDK/2021/07/25/Hello_World/"/>
+    <id>https://startdreamman.github.io/LDK/2021/07/25/Hello_World/</id>
+    <published>2021-07-25T14:34:00.698Z</published>
+    <updated>2021-07-25T15:30:16.898Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\LDK\css\APlayer.min.css"><script src="\LDK\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\LDK\js\Meting.min.js"></script><hr><h3 id="纪念我的第一篇博客"><a href="#纪念我的第一篇博客" class="headerlink" title="纪念我的第一篇博客"></a>纪念我的第一篇博客</h3><ul><li>每学一种语言的开始都是先学会写<strong>Hello World!</strong>,  还记得当我第一次用<strong>C</strong>语言敲下这串代码时的激动与喜悦，在之后用<strong>JAVA</strong>和<strong>Python</strong>敲出时也仍是抱着一样的心情。</li><li>每一种语言都是一个新颖的世界，这个属于我的博客网站也一样，所以我的第一篇博客的名字诞生： <strong>Hello,my blog world!</strong></li><li>关于<strong>赞美愚者</strong>，来自<strong>《诡秘之主》</strong>这本小说，它给我的感觉就像一个全新奇幻而又真实的世界。<strong>切记</strong>：不要直视神，就算是愚者，也不要直视祂！！！哦，赞美愚者！！！</li></ul><h3 id="网站历程"><a href="#网站历程" class="headerlink" title="网站历程"></a>网站历程</h3><ul><li><p>怎么说呢？改用一句名言：<strong>BugBug ErrorError FailedFailed,怎一个苦字了得</strong></p></li><li><p>回家后玩了一天，一直到现在。只要是醒着，不是在吃饭，就一定在电脑前坐着，弄得现在脖子和背都很酸痛。各种不知名的报错加上电脑的问题（忍它蓝屏好久了），不过解决后也很开心。</p></li><li><p>主要在搞<strong>音乐播放</strong>功能，<strong>聊天室</strong>的建立，还有<strong>评论功能</strong>的加入</p></li><li><p>一些页面还没有开始建立，以后会<strong>佛系更新</strong>的，。</p></li><li><p>特别鸣谢：我的好<strong>巨人</strong>，他网站的链接在这里**<a href="https://dengxiayouhun.github.io/">青春玩命的年代</a>**,<strong>已经有好多篇博文了哦，快去盘他！！！</strong></p><h3 id="音乐链接"><a href="#音乐链接" class="headerlink" title="音乐链接"></a><strong><a href="https://startdreamman.github.io/LDK/music/">音乐链接</a></strong></h3></li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\LDK\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\LDK\js\APlayer.min.js&quot; class=&quot;ap</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+</feed>
