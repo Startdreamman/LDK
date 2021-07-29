@@ -6,7 +6,7 @@
   <link href="https://startdreamman.github.io/LDK/atom.xml" rel="self"/>
   
   <link href="https://startdreamman.github.io/LDK/"/>
-  <updated>2021-07-25T15:30:16.898Z</updated>
+  <updated>2021-07-25T15:30:18.000Z</updated>
   <id>https://startdreamman.github.io/LDK/</id>
   
   <author>
@@ -18,12 +18,32 @@
   
   <entry>
     <title>Hello,my blog world</title>
-    <link href="https://startdreamman.github.io/LDK/2021/07/25/Hello_World/"/>
-    <id>https://startdreamman.github.io/LDK/2021/07/25/Hello_World/</id>
-    <published>2021-07-25T14:34:00.698Z</published>
-    <updated>2021-07-25T15:30:16.898Z</updated>
+    <link href="https://startdreamman.github.io/LDK/2021/07/29/Hello_World/"/>
+    <id>https://startdreamman.github.io/LDK/2021/07/29/Hello_World/</id>
+    <published>2021-07-28T16:05:22.471Z</published>
+    <updated>2021-07-25T15:30:18.000Z</updated>
     
     <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\LDK\css\APlayer.min.css"><script src="\LDK\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\LDK\js\Meting.min.js"></script><hr><h3 id="纪念我的第一篇博客"><a href="#纪念我的第一篇博客" class="headerlink" title="纪念我的第一篇博客"></a>纪念我的第一篇博客</h3><ul><li>每学一种语言的开始都是先学会写<strong>Hello World!</strong>,  还记得当我第一次用<strong>C</strong>语言敲下这串代码时的激动与喜悦，在之后用<strong>JAVA</strong>和<strong>Python</strong>敲出时也仍是抱着一样的心情。</li><li>每一种语言都是一个新颖的世界，这个属于我的博客网站也一样，所以我的第一篇博客的名字诞生： <strong>Hello,my blog world!</strong></li><li>关于<strong>赞美愚者</strong>，来自<strong>《诡秘之主》</strong>这本小说，它给我的感觉就像一个全新奇幻而又真实的世界。<strong>切记</strong>：不要直视神，就算是愚者，也不要直视祂！！！哦，赞美愚者！！！</li></ul><h3 id="网站历程"><a href="#网站历程" class="headerlink" title="网站历程"></a>网站历程</h3><ul><li><p>怎么说呢？改用一句名言：<strong>BugBug ErrorError FailedFailed,怎一个苦字了得</strong></p></li><li><p>回家后玩了一天，一直到现在。只要是醒着，不是在吃饭，就一定在电脑前坐着，弄得现在脖子和背都很酸痛。各种不知名的报错加上电脑的问题（忍它蓝屏好久了），不过解决后也很开心。</p></li><li><p>主要在搞<strong>音乐播放</strong>功能，<strong>聊天室</strong>的建立，还有<strong>评论功能</strong>的加入</p></li><li><p>一些页面还没有开始建立，以后会<strong>佛系更新</strong>的，。</p></li><li><p>特别鸣谢：我的好<strong>巨人</strong>，他网站的链接在这里**<a href="https://dengxiayouhun.github.io/">青春玩命的年代</a>**,<strong>已经有好多篇博文了哦，快去盘他！！！</strong></p><h3 id="音乐链接"><a href="#音乐链接" class="headerlink" title="音乐链接"></a><strong><a href="https://startdreamman.github.io/LDK/music/">音乐链接</a></strong></h3></li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\LDK\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\LDK\js\APlayer.min.js&quot; class=&quot;ap</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>利用IP映射加速GitHub的访问</title>
+    <link href="https://startdreamman.github.io/LDK/2021/07/29/2021-7-29-%E5%88%A9%E7%94%A8IP%E6%98%A0%E5%B0%84%E5%8A%A0%E9%80%9FGitHub%E7%9A%84%E8%AE%BF%E9%97%AE/"/>
+    <id>https://startdreamman.github.io/LDK/2021/07/29/2021-7-29-%E5%88%A9%E7%94%A8IP%E6%98%A0%E5%B0%84%E5%8A%A0%E9%80%9FGitHub%E7%9A%84%E8%AE%BF%E9%97%AE/</id>
+    <published>2021-07-28T16:00:00.000Z</published>
+    <updated>2021-07-29T11:23:34.110Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\LDK\css\APlayer.min.css"><script src="\LDK\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\LDK\js\Meting.min.js"></script><h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>由于刚重装完系统，之前的配置都已经没了。忘了如何配置的我又不得不去找教程，这次一我自己把这个过程记录下来，以便之后使用</p><h3 id="过程"><a href="#过程" class="headerlink" title="过程"></a>过程</h3><h5 id="原理介绍"><a href="#原理介绍" class="headerlink" title="原理介绍"></a>原理介绍</h5><p>通过查询域名的IP，配置hosts实现加速github的效果。（由于映射的IP有时会变化，所以变的时候要去重新查询和配置）</p><h5 id="下面是两个查询IP的网站（建议先使用第一个）"><a href="#下面是两个查询IP的网站（建议先使用第一个）" class="headerlink" title="下面是两个查询IP的网站（建议先使用第一个）"></a>下面是两个查询IP的网站（建议先使用第一个）</h5><ul><li><a href="https://markdown.com.cn/basic-syntax/links.html">IPAddress.com</a></li><li><a href="http://tool.chinaz.com/dns/">站长工具</a></li></ul><h5 id="需要查询的网址"><a href="#需要查询的网址" class="headerlink" title="需要查询的网址"></a>需要查询的网址</h5><ul><li>github.com</li><li>assets-cdn.github.com</li><li>github.global.ssl.fastly.net</li></ul><h5 id="步骤"><a href="#步骤" class="headerlink" title="步骤"></a>步骤</h5><ol><li><p>查询以上网址的IP地址，并记录下来（出现一个域名多个IP的，把所有IP都记录下来）</p></li><li><p>找到hosts文件的地址（C:\Windows\System32\drivers\etc）</p></li><li><p>将记录的东西添加到hosts文件中<img src="https://startdreamman.github.io/LDK/img/hosts_github.png" alt="hosts示例图"></p></li><li><p>刷新本机的DNS解析缓存</p><ol><li>win+R，打开cmd</li><li>输入命令ipconfig/flushdns</li></ol></li><li><p>测试</p></li></ol><p><a href="https://blog.csdn.net/weixin_45604606/article/details/116399620">文章参考源地址</a></p>]]></content>
     
     
       
