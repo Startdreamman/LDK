@@ -6,7 +6,7 @@
   <link href="https://startdreamman.github.io/LDK/atom.xml" rel="self"/>
   
   <link href="https://startdreamman.github.io/LDK/"/>
-  <updated>2021-08-01T16:00:00.000Z</updated>
+  <updated>2021-08-05T16:00:00.000Z</updated>
   <id>https://startdreamman.github.io/LDK/</id>
   
   <author>
@@ -15,6 +15,26 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>PASH和CLASSPATH的设置和初步理解</title>
+    <link href="https://startdreamman.github.io/LDK/2021/08/06/PASH%E5%92%8CCLASSPATH%E5%B1%9E%E6%80%A7%E7%9A%84%E9%85%8D%E7%BD%AE/"/>
+    <id>https://startdreamman.github.io/LDK/2021/08/06/PASH%E5%92%8CCLASSPATH%E5%B1%9E%E6%80%A7%E7%9A%84%E9%85%8D%E7%BD%AE/</id>
+    <published>2021-08-05T16:00:00.000Z</published>
+    <updated>2021-08-05T16:00:00.000Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\LDK\css\APlayer.min.css"><script src="\LDK\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\LDK\js\Meting.min.js"></script><ul><li><h4 id="Path"><a href="#Path" class="headerlink" title="Path"></a>Path</h4><ul><li>为什么要配置Path环境变量？<ul><li>什么是Path环境变量？<br><strong>PATH是操作系统提供的路径配置，定义所有可执行程序的路径。</strong></li><li>在JDK里所有的可执行程序的路径为<code>D:\JDK\bin</code>(自己安装JDK的路径)，主要使用bin下的java.exe和javac.exe两个命令，即<code>java</code>和<code>javac</code>。但是这两个命令并不属于Windows本身，为了能够在命令行中使用这两个命令，所以才需要去配置Path这个环境变量。（注意是Path是系统环境变量下配置的）</li></ul></li><li>配置方法或者格式<ul><li>环境变量的寻找路径：<code>【此电脑】→【属性】→【高级系统设置】→【环境变量】→【系统变量】→【Path】→【编辑】</code></li><li>在Path变量下添加一个<code>D:\JAVA\SOFT\JDK\jdk16\bin</code>（自己JDK的安装路径）</li></ul></li></ul></li><li><h4 id="CLASSPATH"><a href="#CLASSPATH" class="headerlink" title="CLASSPATH"></a>CLASSPATH</h4><ul><li><p>为什么要配置CLASSPATH环境变量？</p><ul><li><p>什么是CLASSPATH变量？</p><p>​    <strong>CLASSPATH是JRE提供的，用于定义Java程序解释时类加载路径，默认设置的为当前所在目录加载。</strong></p></li><li><p>JVM会先找到CLASSPATH定义的路径然后再加载字节码文件。</p><ul><li>存在关系：<strong>JVM→CLASSPATH定义的路径→加载字节码文件。</strong></li></ul></li><li><p>虽然会默认为当前路径加载，即<code>.</code>,但是当安装其他Java软件是，有可能被更改，形成加载混乱，所以有必要重新设置一下。</p></li></ul></li><li><p>配置方法</p><ul><li>如同Path一样在系统变量里设置，但CLASSPATH变量需要自己去添加。<ul><li>其值为：<code>.;%JAVA_HOME%\lib\dt.jar;%JAVA_HOME%\lib\tools.jar</code> (其中<code>.</code>是必须要有的)</li><li>%JAVA_HOME%的解释<ul><li>JAVA_HOME是一个常用的变量，其中<code>JAVA_HOME的值</code>为JDK的安装路径<code>D:\JAVA\SOFT\JDK\jdk16</code>,这样的话Path需要添加的即为<code>%JAVA_HOME%\bin</code></li></ul></li></ul></li></ul></li></ul></li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\LDK\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\LDK\js\APlayer.min.js&quot; class=&quot;ap</summary>
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>快速幂</title>

@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://startdreamman.github.io/LDK/2021/08/06/PASH%E5%92%8CCLASSPATH%E5%B1%9E%E6%80%A7%E7%9A%84%E9%85%8D%E7%BD%AE/</loc>
+    
+    <lastmod>2021-08-05</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://startdreamman.github.io/LDK/resources/index.html</loc>
     
     <lastmod>2021-08-03</lastmod>
@@ -46,7 +53,7 @@
 
   <url>
     <loc>https://startdreamman.github.io/LDK</loc>
-    <lastmod>2021-08-05</lastmod>
+    <lastmod>2021-08-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -54,7 +61,7 @@
   
   <url>
     <loc>https://startdreamman.github.io/LDK/tags/%E7%AE%97%E6%B3%95/</loc>
-    <lastmod>2021-08-05</lastmod>
+    <lastmod>2021-08-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
