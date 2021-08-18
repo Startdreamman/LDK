@@ -6,7 +6,7 @@
   <link href="https://startdreamman.github.io/LDK/atom.xml" rel="self"/>
   
   <link href="https://startdreamman.github.io/LDK/"/>
-  <updated>2021-08-15T16:00:00.000Z</updated>
+  <updated>2021-08-17T16:00:00.000Z</updated>
   <id>https://startdreamman.github.io/LDK/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>面向对象及类和对像的简介</title>
+    <link href="https://startdreamman.github.io/LDK/2021/08/18/%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%AE%80%E4%BB%8B/"/>
+    <id>https://startdreamman.github.io/LDK/2021/08/18/%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%AE%80%E4%BB%8B/</id>
+    <published>2021-08-17T16:00:00.000Z</published>
+    <updated>2021-08-17T16:00:00.000Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\LDK\css\APlayer.min.css"><script src="\LDK\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\LDK\js\Meting.min.js"></script><p><strong>前言</strong>：要开始学习面向对象，之前听说，一直以为是模块化变成，类似于c语言里的结构体。今天来真实的了解一下。</p><p>​    最早并且一直流行到现在的编程语言C、C++、Java。其中C语言啊已经变为了面向过程编程的代表；而C++、Java是面向对象的编程语言。</p><p>所谓的面向过程指的是面对于一个问题的解决方案，更多的情况下是不会做出重用的设计思想的；而面向对象的主要事迹方式为模块化设计 ，并且可以进行重用配置。在整个的面向对象的设计里面更多情况下考虑的是标准，在使用的时候根据标准进行拼装。</p><h5 id="对于面向对象设计有三个主要特征："><a href="#对于面向对象设计有三个主要特征：" class="headerlink" title="对于面向对象设计有三个主要特征："></a>对于面向对象设计有三个主要特征：</h5><pre><code>- 封装性：内部的操作对外部而言不可见，当内部的操作都不可直接使用的时候才是安全的；- 继承性：在已有结构的基础上继续进行功能的扩充；- 多态性：是在继承性的基础上扩充而来的概念，指的是类型的转换处理；</code></pre><h5 id="在进行面向对象程序开发之中一般还有三个步骤："><a href="#在进行面向对象程序开发之中一般还有三个步骤：" class="headerlink" title="在进行面向对象程序开发之中一般还有三个步骤："></a>在进行面向对象程序开发之中一般还有三个步骤：</h5><pre><code>- OOA：面向对象分析；- OOD：面向对象设计；- OOP：面向对象编程；</code></pre><h4 id="类与对象的简介"><a href="#类与对象的简介" class="headerlink" title="类与对象的简介"></a>类与对象的简介</h4><p>面向对象是一个非常庞大的话题，其核心组成为：类和对象。</p><p>类是对某一事物的共性的抽象概念，而对象描述的是一个具体的产物。</p><p>类和对象的关系，可以用一个列子进行解释：我们都是人，但我们之间是不同的。我们都属于人这个群体，人就相当于一个类，但是我们之间是有不同属性的，例如：性别、年龄、姓名这些属性都是不尽相同的，所以每一个人就相当于一个对象。</p><p>自己的几个理解：</p><ul><li>类是一个模板，而对象才是类可以使用的实列，先有类再有对象。</li><li>类是一个标准，不能直接用，对象是可以直接用的。</li><li>对象是类的实列。</li></ul><p>在类中一般都会有两个组成：</p><ul><li>成员属性（Field）：简称为属性；<ul><li>一个人的年龄、姓名都是不同的，所以这些对于整体来讲就称为属性。</li></ul></li><li>操作方法（Method）：定义对象具有的处理行为；<ul><li>这个人可以唱歌、游泳等；</li></ul></li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\LDK\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\LDK\js\APlayer.min.js&quot; class=&quot;ap</summary>
+      
+    
+    
+    
+    
+    <category term="java基础" scheme="https://startdreamman.github.io/LDK/tags/java%E5%9F%BA%E7%A1%80/"/>
+    
+  </entry>
   
   <entry>
     <title>Java程序逻辑控制语句</title>
