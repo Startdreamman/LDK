@@ -6,7 +6,7 @@
   <link href="https://startdreamman.github.io/LDK/atom.xml" rel="self"/>
   
   <link href="https://startdreamman.github.io/LDK/"/>
-  <updated>2021-08-21T16:00:00.000Z</updated>
+  <updated>2021-08-22T16:00:00.000Z</updated>
   <id>https://startdreamman.github.io/LDK/</id>
   
   <author>
@@ -15,6 +15,50 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>static关键字</title>
+    <link href="https://startdreamman.github.io/LDK/2021/08/23/static%E5%85%B3%E9%94%AE%E5%AD%97/"/>
+    <id>https://startdreamman.github.io/LDK/2021/08/23/static%E5%85%B3%E9%94%AE%E5%AD%97/</id>
+    <published>2021-08-22T16:00:00.000Z</published>
+    <updated>2021-08-22T16:00:00.000Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\LDK\css\APlayer.min.css"><script src="\LDK\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\LDK\js\Meting.min.js"></script><p>static关键字主要可以用来定义属性和方法。</p><h4 id="声明static属性"><a href="#声明static属性" class="headerlink" title="声明static属性"></a>声明static属性</h4><p>在一个类中，所有的属性一但定义了实际上都交由各自的堆内存空间保存。</p><p>例子：</p><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Person</span></span>&#123;</span><br><span class="line">    <span class="keyword">private</span> String name;</span><br><span class="line">    <span class="keyword">private</span> <span class="keyword">int</span> age;</span><br><span class="line">    <span class="keyword">private</span> String country=<span class="string">&quot;中华民国&quot;</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>这种写法的话，在生成对象的时候每个对象都会拥有自己的这三个属性。假设现在已经生成了13亿个对象，但是country的值要改变为中华人民共和国。</p><p>传统的做法会很痛苦的，但是把country属性声明为static的话，即公共属性，就可以通过任一对象改变country的值：</p><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Person</span></span>&#123;</span><br><span class="line">    <span class="keyword">private</span> String name;</span><br><span class="line">    <span class="keyword">private</span> <span class="keyword">int</span> age;</span><br><span class="line">    <span class="keyword">static</span> String country=<span class="string">&quot;中华民国&quot;</span>;<span class="comment">//注意点</span></span><br><span class="line">    <span class="comment">//封装的话是 private static String country=&quot;中华民国&quot;;</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>此时country的数据其实是保存在<strong>全局数据区</strong>。</p><p>但是对于static属性的访问需要注意一点：由于本身是一个公共的属性，虽然可以通过对象进行访问，但是最好的做法应该是通过所有对象的最高代表（类）来进行访问，<strong>所以static属性可以由类名称直接调用。</strong></p><ul><li><code>Person.country=&quot;中华人民共和国&quot;;</code></li></ul><p>注意：static属性虽然定义在类之中，但是并不受到类实例化对象的控制。即：<strong>static属性可以在没有实例化对象的时候。</strong></p><h4 id="声明static方法"><a href="#声明static方法" class="headerlink" title="声明static方法"></a>声明static方法</h4><p>static方法的主要特点在于，其可以直接由类名称在没有实例化对象的情况下进行调用。</p><p>范例：定义static方法</p><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br></pre></td><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Person</span></span>&#123;</span><br><span class="line">    <span class="keyword">private</span> String name;</span><br><span class="line">    <span class="keyword">private</span> <span class="keyword">int</span> age;</span><br><span class="line">    <span class="keyword">private</span> String country=<span class="string">&quot;中华民国&quot;</span>;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">setCountry</span><span class="params">(String c)</span></span>&#123;</span><br><span class="line">        country=c; <span class="comment">/*注意不能使用this.country,所以参数也不能使用String String country*/</span></span><br><span class="line">    &#125;</span><br><span class="line">    </span><br><span class="line">    <span class="comment">//其他的setter和getter方法略</span></span><br><span class="line">    </span><br><span class="line">    <span class="function"><span class="keyword">public</span> String <span class="title">getInfo</span><span class="params">()</span></span>&#123;</span><br><span class="line">        <span class="keyword">return</span> <span class="string">&quot;姓名：&quot;</span>+<span class="keyword">this</span>.name+<span class="string">&quot;年龄：&quot;</span>+<span class="keyword">this</span>.age+<span class="string">&quot;国家：&quot;</span>+<span class="keyword">this</span>.country;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Demo</span></span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String [] args)</span></span>&#123;</span><br><span class="line">        Person.setCountry(<span class="string">&quot;中华人民共和国&quot;</span>);</span><br><span class="line">        Person per=<span class="keyword">new</span> Person(<span class="string">&quot;张三&quot;</span>,<span class="number">10</span>);</span><br><span class="line">        System.out.println(per.getInfo());</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p><strong>关于static方法的注意点：</strong></p><ul><li><strong>static方法只允许调用static属性或方法；</strong></li><li><strong>非static方法允许调用static属性或方法；</strong></li></ul><p>之所以会有上面注意点出现的情况是因为static定义的属性和方法都可以在没有实例化对象的前提下使用，而所有的非static的属性和方法必须在实例化对象的情况下才可以使用。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\LDK\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\LDK\js\APlayer.min.js&quot; class=&quot;ap</summary>
+      
+    
+    
+    
+    
+    <category term="java基础" scheme="https://startdreamman.github.io/LDK/tags/java%E5%9F%BA%E7%A1%80/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>简单类</title>
+    <link href="https://startdreamman.github.io/LDK/2021/08/22/Java%20%E7%9A%84%E7%AE%80%E5%8D%95%E7%B1%BB/"/>
+    <id>https://startdreamman.github.io/LDK/2021/08/22/Java%20%E7%9A%84%E7%AE%80%E5%8D%95%E7%B1%BB/</id>
+    <published>2021-08-21T16:00:00.000Z</published>
+    <updated>2021-08-21T16:00:00.000Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\LDK\css\APlayer.min.css"><script src="\LDK\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\LDK\js\Meting.min.js"></script><p>所谓的简单Java类指的是可以描述某一些信息的程序类，例如：描述一个人、描述一本书等，并且这个类中没有特别复杂的逻辑结构，只作为一种信息存储的媒介存在。</p><p>对于简单Java类而言，其核心的开发结构如下：</p><ul><li>类名称一定要有意义，可以描述某一类事物；</li><li>类中的属性必须使用private进行封装，同时封装后的属性必须要提供有setter、getter方法；</li><li>类中必须保留无参的构造方法；</li><li>类之中不允许出现任何的输出语句，所有的内容必须返回；</li><li>【非必须】提供有一个获取对象详细信息的方法，暂时将此方法名称定义为getInfo（）。</li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\LDK\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\LDK\js\APlayer.min.js&quot; class=&quot;ap</summary>
+      
+    
+    
+    
+    
+    <category term="java基础" scheme="https://startdreamman.github.io/LDK/tags/java%E5%9F%BA%E7%A1%80/"/>
+    
+  </entry>
   
   <entry>
     <title>this关键字</title>
