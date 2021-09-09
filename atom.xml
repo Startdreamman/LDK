@@ -6,7 +6,7 @@
   <link href="https://startdreamman.github.io/LDK/atom.xml" rel="self"/>
   
   <link href="https://startdreamman.github.io/LDK/"/>
-  <updated>2021-09-05T16:00:00.000Z</updated>
+  <updated>2021-09-06T16:00:00.000Z</updated>
   <id>https://startdreamman.github.io/LDK/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>方法可变参数</title>
+    <link href="https://startdreamman.github.io/LDK/2021/09/07/%E6%96%B9%E6%B3%95%E5%8F%AF%E5%8F%98%E5%8F%82%E6%95%B0/"/>
+    <id>https://startdreamman.github.io/LDK/2021/09/07/%E6%96%B9%E6%B3%95%E5%8F%AF%E5%8F%98%E5%8F%82%E6%95%B0/</id>
+    <published>2021-09-06T16:00:00.000Z</published>
+    <updated>2021-09-06T16:00:00.000Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\LDK\css\APlayer.min.css"><script src="\LDK\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\LDK\js\Meting.min.js"></script><h3 id="方法可变参数"><a href="#方法可变参数" class="headerlink" title="方法可变参数"></a>方法可变参数</h3>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\LDK\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\LDK\js\APlayer.min.js&quot; class=&quot;ap</summary>
+      
+    
+    
+    
+    
+    <category term="java基础" scheme="https://startdreamman.github.io/LDK/tags/java%E5%9F%BA%E7%A1%80/"/>
+    
+  </entry>
   
   <entry>
     <title>约瑟夫环的问题</title>
