@@ -4,7 +4,7 @@
   <url>
     <loc>https://ldk_code.gitee.io/liubai/music/index.html</loc>
     
-    <lastmod>2021-09-10</lastmod>
+    <lastmod>2021-09-11</lastmod>
     
   </url>
   
@@ -16,14 +16,14 @@
   </url>
   
   <url>
-    <loc>https://ldk_code.gitee.io/liubai/novel/index.html</loc>
+    <loc>https://ldk_code.gitee.io/liubai/live/index.html</loc>
     
     <lastmod>2021-09-09</lastmod>
     
   </url>
   
   <url>
-    <loc>https://ldk_code.gitee.io/liubai/live/index.html</loc>
+    <loc>https://ldk_code.gitee.io/liubai/novel/index.html</loc>
     
     <lastmod>2021-09-09</lastmod>
     
@@ -165,29 +165,29 @@
 
   <url>
     <loc>https://ldk_code.gitee.io/liubai</loc>
-    <lastmod>2021-09-10</lastmod>
+    <lastmod>2021-09-11</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
 
   
   <url>
-    <loc>https://ldk_code.gitee.io/liubai/tags/Java%E5%9F%BA%E7%A1%80/</loc>
-    <lastmod>2021-09-10</lastmod>
+    <loc>https://ldk_code.gitee.io/liubai/tags/java%E5%9F%BA%E7%A1%80/</loc>
+    <lastmod>2021-09-11</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://ldk_code.gitee.io/liubai/tags/java%E5%9F%BA%E7%A1%80/</loc>
-    <lastmod>2021-09-10</lastmod>
+    <loc>https://ldk_code.gitee.io/liubai/tags/Java%E5%9F%BA%E7%A1%80/</loc>
+    <lastmod>2021-09-11</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://ldk_code.gitee.io/liubai/tags/%E7%AE%97%E6%B3%95/</loc>
-    <lastmod>2021-09-10</lastmod>
+    <lastmod>2021-09-11</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
