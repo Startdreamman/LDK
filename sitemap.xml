@@ -37,14 +37,14 @@
   </url>
   
   <url>
-    <loc>https://ldk_code.gitee.io/liubai/live/index.html</loc>
+    <loc>https://ldk_code.gitee.io/liubai/novel/index.html</loc>
     
     <lastmod>2021-09-09</lastmod>
     
   </url>
   
   <url>
-    <loc>https://ldk_code.gitee.io/liubai/novel/index.html</loc>
+    <loc>https://ldk_code.gitee.io/liubai/live/index.html</loc>
     
     <lastmod>2021-09-09</lastmod>
     
@@ -65,14 +65,14 @@
   </url>
   
   <url>
-    <loc>https://ldk_code.gitee.io/liubai/2021/08/24/%E6%95%B0%E7%BB%84%E7%9A%84%E5%9F%BA%E7%A1%80%E4%BA%86%E8%A7%A3/</loc>
+    <loc>https://ldk_code.gitee.io/liubai/2021/08/24/%E4%BB%A3%E7%A0%81%E5%9D%97/</loc>
     
     <lastmod>2021-08-23</lastmod>
     
   </url>
   
   <url>
-    <loc>https://ldk_code.gitee.io/liubai/2021/08/24/%E4%BB%A3%E7%A0%81%E5%9D%97/</loc>
+    <loc>https://ldk_code.gitee.io/liubai/2021/08/24/%E6%95%B0%E7%BB%84%E7%9A%84%E5%9F%BA%E7%A1%80%E4%BA%86%E8%A7%A3/</loc>
     
     <lastmod>2021-08-23</lastmod>
     
@@ -193,13 +193,6 @@
 
   
   <url>
-    <loc>https://ldk_code.gitee.io/liubai/tags/java%E5%9F%BA%E7%A1%80/</loc>
-    <lastmod>2021-09-21</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://ldk_code.gitee.io/liubai/tags/Java%E5%9F%BA%E7%A1%80/</loc>
     <lastmod>2021-09-21</lastmod>
     <changefreq>daily</changefreq>
@@ -207,7 +200,7 @@
   </url>
   
   <url>
-    <loc>https://ldk_code.gitee.io/liubai/tags/%E7%AE%97%E6%B3%95/</loc>
+    <loc>https://ldk_code.gitee.io/liubai/tags/java%E5%9F%BA%E7%A1%80/</loc>
     <lastmod>2021-09-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -215,6 +208,13 @@
   
   <url>
     <loc>https://ldk_code.gitee.io/liubai/tags/%E9%A1%B9%E7%9B%AE/</loc>
+    <lastmod>2021-09-21</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://ldk_code.gitee.io/liubai/tags/%E7%AE%97%E6%B3%95/</loc>
     <lastmod>2021-09-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
